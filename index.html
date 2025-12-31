@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras Jain | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="/" class="logo">Paras Jain</a>
+            <nav class="site-nav">
+                <ul class="nav-list">
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#talks">Talks</a></li>
+                </ul>
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" style="display:none;">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="hero">
+            <div class="hero-text">
+                <h1 class="hero-title">Hey, I am Paras</h1>
+                <p class="hero-subtitle">software engineer at Google. building scalable systems.</p>
+                <div class="hero-bio">
+                    <p>I am a Software Engineer at Google, working on distributed systems and cloud infrastructure.</p>
+                    <p>Previously, I worked at J.P. Morgan Chase (JPMC) building high-performance financial systems.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Paras Jain" class="profile-image"
+                    onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Paras+Jain&size=300&background=e0e0e0&color=333'">
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <div class="column">
+                <h2 class="section-title">Recent Writings</h2>
+                <div class="list-item">
+                    <span class="date">Dec 2024</span>
+                    <a href="https://medium.com/@parasjain21389/connect-to-gemini-api-using-python-d24d93e37d39"
+                        target="_blank" class="item-link">Connect to Gemini API using Python</a>
+                </div>
+                <div class="list-item">
+                    <span class="date">Nov 2024</span>
+                    <a href="#" class="item-link">Optimizing Go Garbage Collection</a>
+                </div>
+                <div class="list-item">
+                    <span class="date">Oct 2024</span>
+                    <a href="#" class="item-link">A Deep Dive into Kubernetes Networking</a>
+                </div>
+                <a href="#" class="view-all">View all posts →</a>
+            </div>
+
+            <div class="column">
+                <h2 class="section-title">Projects & Work</h2>
+
+                <!-- Mentorship Feature -->
+                <div class="mentorship-card">
+                    <h3>1:1 Mentorship</h3>
+                    <p>Book a 30-min session to discuss distributed systems, career growth, or mock interviews.</p>
+                    <a href="https://topmate.io/parasjainx/" target="_blank" class="book-btn">Book Slot (₹100)</a>
+                </div>
+
+                <div class="list-item">
+                    <span class="date">2024</span>
+                    <a href="#" class="item-link">Google Cloud Infrastructure</a>
+                </div>
+                <div class="list-item">
+                    <span class="date">2023</span>
+                    <a href="#" class="item-link">JPMC Trading Platform</a>
+                </div>
+                <a href="#" class="view-all">View all projects →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="#">Twitter/X</a></li>
+                    <li><a href="https://in.linkedin.com/in/paras-jain-x">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">System Design</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="mailto:contact@example.com">Email Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2025 Paras Jain. Built with minimal HTML & CSS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
